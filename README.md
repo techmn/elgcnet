@@ -13,7 +13,7 @@ achieving state-of-the-art performance.
 
 Methods
 -----------------
-<img width="1096" alt="image" src="demo/proposed_framework.pdf">
+<img width="1096" alt="image" src="demo/proposed_framework.png">
 
 Introduction
 -----------------
@@ -33,7 +33,7 @@ Visualization results of ELGC-Net
 
 <table>
   <tr>
-    <td><img src="demo/levir_qualitative_elgcnet.pdf"></td>
+    <td><img src="demo/levir_qualitative_elgcnet.png"></td>
   </tr>
 </table>
 
