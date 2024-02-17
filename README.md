@@ -21,21 +21,11 @@ Deep learning has shown remarkable success in remote sensing change detection (C
 
 Quantitative Comparison of ELGC-Net
 -----------------
-
-<table>
-  <tr>
-    <td><img src="demo/quantitative_comparison.png"></td>
-  </tr>
-</table>
+<img width="1096" alt="image" src="demo/quantitative_comparison.png">
 
 Visualization results of ELGC-Net
 -----------------
-
-<table>
-  <tr>
-    <td><img src="demo/levir_qualitative_elgcnet.png"></td>
-  </tr>
-</table>
+<img width="1096" alt="image" src="demo/levir_qualitative_elgcnet.png">
 
 ### Requirements
 ```
