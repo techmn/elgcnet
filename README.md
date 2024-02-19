@@ -19,11 +19,11 @@ Introduction
 -----------------
 Deep learning has shown remarkable success in remote sensing change detection (CD), aiming to identify semantic change regions between co-registered satellite image pairs acquired at distinct time stamps. However, existing convolutional neural networks (CNN) and transformer-based frameworks often struggle to  accurately segment semantic change regions.  Moreover, transformers-based methods with standard self-attention suffer from quadratic computational complexity with respect to the image resolution, making them less practical for CD tasks with limited training data. To address these issues, we propose an efficient change detection framework, ELGC-Net, which leverages rich contextual information to precisely estimate change regions while reducing the model size. Our ELGC-Net comprises a Siamese encoder, fusion modules, and a decoder. The focus of our design is the introduction of an Efficient Local-Global Context Aggregator (ELGCA) module within the encoder, capturing enhanced global context and local spatial  information through a novel pooled-transpose (PT) attention and depthwise convolution, respectively. The PT attention employs  pooling operations for robust feature extraction and minimizes computational cost with transposed attention. Extensive experiments on three challenging CD datasets demonstrate that ELGC-Net outperforms existing methods. Compared to the recent transformer-based CD approach (ChangeFormer), ELGC-Net achieves a 1.4% gain in intersection over union (IoU) metric on the LEVIR-CD dataset, while significantly reducing trainable parameters. Our proposed ELGC-Net sets a new state-of-the-art performance in remote sensing change detection benchmarks.  Finally, we also introduce ELGC-Net-LW, a  lighter variant with significantly reduced computational complexity,   suitable for resource-constrained settings, while achieving comparable performance.
 
-Quantitative Comparison of ELGC-Net
+Quantitative Comparison 
 -----------------
 <img width="1096" alt="image" src="demo/quantitative_comparison.png">
 
-Visualization results of ELGC-Net
+Visualization results over LEVIR-CD
 -----------------
 <img width="1096" alt="image" src="demo/levir_qualitative_elgcnet.png">
 
