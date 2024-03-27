@@ -1,6 +1,6 @@
 
 # ELGC-Net: Efficient Local-Global Context Aggregation for Remote Sensing Change Detection
-This repo contains the official **PyTorch** code for Efficient Local-Global Context Aggregation for Remote Sensing Change Detection [[IEEE TGRS]](https://ieeexplore.ieee.org/abstract/document/10423067). 
+This repo contains the official **PyTorch** code for Efficient Local-Global Context Aggregation for Remote Sensing Change Detection [[IEEE TGRS]](https://ieeexplore.ieee.org/abstract/document/10423067) [[arXiv]](https://arxiv.org/abs/2403.17909). 
 
 **Code is released!**
 
