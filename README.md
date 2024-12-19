@@ -6,7 +6,7 @@
 This repo contains the official **PyTorch** code for Efficient Local-Global Context Aggregation for Remote Sensing Change Detection.
 
 - **Code is released.**
-- **Model weights are uplodaded.**
+- **Model weights are uploaded.**
 
 Highlights
 -----------------
