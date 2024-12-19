@@ -5,7 +5,8 @@
 
 This repo contains the official **PyTorch** code for Efficient Local-Global Context Aggregation for Remote Sensing Change Detection.
 
-**Code is released!**
+- **Code is released.**
+- **Model weights are uplodaded.**
 
 Highlights
 -----------------
@@ -62,6 +63,8 @@ Change detection data set with pixel-level binary labels；
 
 `list`: contains `train.txt, val.txt and test.txt`, each file records the image names (XXX.png) in the change detection dataset.
 
+### Model Weights
+Find the model weights [here](https://huggingface.co/mubashir04/elgcnet)
 
 ## Citation
 
